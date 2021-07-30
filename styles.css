@@ -1,0 +1,109 @@
+.header {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #fffdfb;
+        border-radius: 15px;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        color: #757a79;
+      }
+
+      h3 {
+        text-align: center;
+        color: #757a79;
+        line-height: 2.5;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-height: 650px;
+        border-radius: 15px;
+      }
+
+      p {
+        line-height: 2.5;
+        font-size: 14;
+      }
+
+      hr {
+        width: 9%;
+        margin: 0 auto;
+        border: 2px solid #f48db4;
+        padding: 0px 4px;
+      }
+
+      .more {
+        margin: 4.3em 0 4.3em;
+        text-align: center;
+      }
+
+      ul {
+        list-style: none;
+        padding: 10px;
+        text-align: center;
+      }
+
+      li {
+        font-family: unset;
+        font-size: 20px;
+        margin: 0 3em;
+        display: inline;
+        line-height: 2.5;
+      }
+
+      .link {
+        color: rgb(92, 92, 92);
+      }
+
+      .link:hover {
+        color: #f48db4;
+      }
+
+      .emoji {
+        margin: 0 auto;
+        line-height: 2.5;
+        font-size: 2.5em;
+      }
+
+      h5 {
+        text-align: center;
+        opacity: 0.7;
+        line-height: 2.5;
+      }
+
+      button {
+        background: linear-gradient(
+          110.2deg,
+          rgb(111, 71, 133) 3.6%,
+          rgb(232, 129, 166) 50.3%,
+          rgb(237, 237, 183) 97.4%
+        );
+        color: #ffff;
+        font-size: 17px;
+        display: block;
+        margin: 15px auto;
+        padding: 19px 23px;
+        border-radius: 30px;
+        border: 1px solid #fae3e3;
+        box-shadow: 1px 8px 9px -1px rgb(30 27 90 / 12%);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background: linear-gradient(
+          122.3deg,
+          rgb(111, 71, 133) 14.6%,
+          rgb(232, 129, 166) 29.6%,
+          rgb(237, 237, 183) 42.1%,
+          rgb(244, 166, 215) 56.7%,
+          rgb(154, 219, 232) 68.7%,
+          rgb(238, 226, 159) 84.8%
+        );
+        color: #5b446a;
+        cursor: pointer;
+      }
